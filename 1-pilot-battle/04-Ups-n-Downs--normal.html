@@ -1,0 +1,30 @@
+<div class='wrap'>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+    <style>
+      body{
+        margin: 50px;
+        background: #62306D;
+      }
+      .wrap{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .wrap div{
+        width: 100px;
+        height: 100px;
+        border-radius:50% 50% 0 0;
+        background:#F7EC7D;
+      }
+      .wrap div:nth-child(2n-1){
+        visibility:hidden;
+      }
+      .wrap :nth-child(n+3){
+        border-radius: 0 0 50% 50%;
+      }
+  </style>
