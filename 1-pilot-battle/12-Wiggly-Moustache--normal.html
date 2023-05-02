@@ -1,0 +1,56 @@
+<div class="wrap">
+    <div></div>
+    <div class="t"></div>
+</div>
+<style>
+    body {
+        background: #F5D6B4
+    }
+
+    .wrap,
+    .wrap:before,
+    .wrap:after {
+        position: fixed;
+        top: 100px;
+        left: 150px;
+        width: 60px;
+        height: 30px;
+        border-radius: 75vw 75vw 0 0;
+        border: 20px solid#D86F45
+    }
+
+    .wrap {
+        border-bottom: none
+    }
+
+    .wrap:before,
+    .wrap:after {
+        content: '';
+        position: absolute;
+        border-top: none;
+        border-radius: 0 0 75vw 75vw;
+        top: 30px;
+    }
+
+    .wrap:before {
+        left: -100px;
+    }
+
+    .wrap:after {
+        left: 60px;
+    }
+
+    .wrap>div {
+        width: 20px;
+        height: 20px;
+        background: #D86F45;
+        border-radius: 50%;
+        position: absolute;
+        top: 20;
+        left: -100px;
+    }
+
+    div.t {
+        left: 140px;
+    }
+</style>
