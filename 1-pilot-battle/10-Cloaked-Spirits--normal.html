@@ -1,0 +1,50 @@
+<div class="wrap">
+    <div class="small"></div>
+    <div class="big"></div>
+    <div class="small"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        background: #62306D;
+    }
+
+    .wrap {
+        margin: 50px;
+        width: 300px;
+        height: 250px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .small,
+    .big {
+        background: #F7EC7D;
+        width: 100px;
+        height: 250px;
+        border-radius: 50px 50px 0 0;
+        position: relative;
+    }
+
+    .small {
+        height: 150px;
+    }
+
+    .small:after,
+    .big:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 60px;
+        height: 60px;
+        background: #E38F66;
+        border: 20px solid #AA445F;
+        border-radius: 50%;
+    }
+
+    .big:after {
+        background: #AA445F;
+        border: 20px solid #E38F66;
+    }
+</style>
