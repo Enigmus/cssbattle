@@ -1,0 +1,46 @@
+<div class="wrap">
+    <div class="c"></div>
+    <div class="t a"></div>
+    <div class="t"></div>
+    <div class="c a"></div>
+    <div class="b a"></div>
+    <div class="c"></div>
+    <div class="c a"></div>
+    <div class="b"></div>
+</div>
+<style>
+    body {
+        background: #1A4341;
+    }
+
+    .wrap {
+        width: 260px;
+        height: 120px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin: 90px 62px;
+    }
+
+    .wrap div {
+        width: 50px;
+        height: 50px;
+        background: #998235;
+    }
+
+    .c {
+        border-radius: 50%
+    }
+
+    div.a {
+        background: #F3AC3C;
+    }
+
+    .t {
+        border-radius: 50% 50% 0 0;
+    }
+
+    .b {
+        border-radius: 0 0 50% 50%;
+    }
+</style>

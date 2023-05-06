@@ -1,0 +1,44 @@
+<div class="wrap">
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+    <div class="d"></div>
+</div>
+<style>
+    body {
+        background: #998235;
+    }
+
+    .wrap {
+        display: flex;
+        flex-flow: column wrap;
+        width: 180px;
+        height: 180px;
+        margin: 60px 102px;
+        gap: 20px;
+    }
+
+    .a,
+    .d {
+        background: #1A4341;
+        width: 80px;
+        height: 100px;
+    }
+
+    .b,
+    .c {
+        background: #F3AC3C;
+        width: 80px;
+        height: 60px;
+    }
+
+    .a,
+    .b {
+        border-radius: 0 50px;
+    }
+
+    .c,
+    .d {
+        border-radius: 50px 0;
+    }
+</style>

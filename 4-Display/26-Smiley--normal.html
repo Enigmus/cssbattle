@@ -1,0 +1,25 @@
+<div></div>
+<div></div>
+<div></div>
+<style>
+    body {
+        background: #6592CF;
+        margin: 40px
+    }
+
+    div {
+        width: 80px;
+        height: 40px;
+        border-radius: 100px 100px 0 0;
+        border: 20px solid #060F55;
+        border-bottom: none;
+    }
+
+    div+div {
+        transform: translate(200px, -60px);
+    }
+
+    div+div+div {
+        transform: translate(100px, 40px) rotate(180deg);
+    }
+</style>
