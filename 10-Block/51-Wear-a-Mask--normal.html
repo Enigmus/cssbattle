@@ -1,0 +1,57 @@
+<div l></div>
+<div c></div>
+<div r></div>
+<div a></div>
+<div a></div>
+<div b></div>
+<style>
+  *{
+    background:#293462;
+    color:FFF1C1
+  }
+  div {
+    position:fixed
+  }
+  [l]{
+    width:55;
+    height:40;
+    border-radius:50px 0 0 50px;
+    border:10px solid;
+    border-right:0;
+    top:100;
+    left:64
+  }
+  [r]{
+    width:50;
+    height:40;
+    border-radius:0 50px 50px 0;
+    border:10px solid;
+    top:100;
+    left:265
+  }
+  [c]{
+    width:150;
+    height:100;
+    border-radius:0 0 50px 50px;
+    background:#FFF1C1;
+    top:100;
+    left:125
+  }
+  [a]{
+    width:40;
+    height:10;
+    border-radius:50px;
+    background:#FE5F55;
+    top:120;
+    left:145;
+  }
+  [a]+[a]{top:140}
+  [b]{
+    width:40;
+    height:40;
+    border-radius:50px;
+    background:#FE5F55;
+    top:140;
+    left:215
+  }
+</style>
