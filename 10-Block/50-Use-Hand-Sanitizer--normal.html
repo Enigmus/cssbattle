@@ -1,47 +1,50 @@
 <div a></div>
-<div b></div>
-<div c></div>
-<div d z></div>
-<div d z></div>
-<div e></div>
-<div f></div>
-<div g z></div>
-<div h></div>
-<style>
-    * {
-        background: #1A4441;
-        margin: 0;
-    }
+<div b>
+    <div c>
+        <div d>
+            <div e></div>
+        </div>
+    </div>
+    <style>
+        * {
+            background: #1A4341
+        }
 
-    div {
-        position: fixed;
-        background: #F3AC3C
-    }
+        *>* {
+            position: absolute;
+            padding: 0;
+            margin: 0;
+            border-radius: 20px;
+            background: #F3AC3C;
+        }
 
-    [z] {
-        background: #998235
-    }
+        [a] {
+            padding: 70 50;
+            margin: 110 150;
+            background: linear-gradient(#F3AC3C 40%, #998235 0)
+        }
 
-    [a] {
-        width: 150;
-        height: 20;
-        border-radius: 50px;
-        top: 50;
-        left: 150
-    }
+        [b] {
+            padding: 30 25;
+            border-radius: 10px;
+            margin: 90 175;
+        }
 
-    [b] {
-        width: 20;
-        height: 50;
-        border-radius: 50px;
-        top: 50;
-        left: 190
-    }
+        [c] {
+            padding: 10 75;
+            margin: -70 -50;
+        }
 
-    [c] {
-        width: 20;
-        height: 40;
-        border-radius: 50px;
-        top: 50;
-        left: 280
-    }
+        [d] {
+            padding: 20 10;
+            margin: -10 55;
+            box-shadow: -90px 10px #F3AC3C;
+        }
+
+        [e] {
+            padding: 10;
+            margin: 30 -10;
+            background: #998235;
+            box-shadow: 0 30px #998235, -65px 55px 0 15px #F3AC3C, -115px 55px 0 15px #998235;
+        }
+    </style>
