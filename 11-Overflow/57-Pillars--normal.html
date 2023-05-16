@@ -1,43 +1,20 @@
-<div a></div>
-<div b></div>
-<div c></div>
-<style>
-    body {
+<p>
+    <style>
+      * {
         background: #191919;
-    }
-
-    div {
+      }
+      p, p::before {
         position: fixed;
+        content: '';
         background: #4F77FF;
-        color: 191919
-    }
-
-    [a] {
-        width: 110;
-        height: 55;
-        top: 95;
-        left: 145;
-        -webkit-box-reflect: below -1px;
-    }
-
-    [b] {
-        background: #F9E492;
+        padding: 55;
+        margin: 87 137
+      }
+      p::before {
+        margin: -75 -75;
+        padding: 15;
         border-radius: 50%;
-        width: 45;
-        height: 45;
-        top: 75;
-        left: 125;
-        box-shadow: 6px 6px 0 10px, 104px 0#F9E492, 99px 6px 0 10px;
-        -webkit-box-reflect: below 59px;
-    }
-
-    [c] {
-        border-radius: 50%;
-        width: 30;
-        height: 30;
-        top: 75;
-        left: 125;
-        box-shadow: 120px 0 #4F77FF;
-        -webkit-box-reflect: below 89px;
-    }
-</style>
+        box-shadow: 0 30vw #4F77FF, 8q 8q 0 8q #F9E492, 8q 119q 0 8q #F9E492, 5vh 5vh 0 5vh #191919, 5vh 35vh 0 5vh #191919;
+        -webkit-box-reflect: right 30vh;
+      }
+    </style>
