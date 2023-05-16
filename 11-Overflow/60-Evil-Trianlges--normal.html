@@ -1,25 +1,34 @@
-<div a>
-    <div b></div>
-</div>
-<style>
-    * {
-        background: #191919;
-        color: 191919;
-        margin: 37 0 0 33.5;
-    }
-
-    [a] {
-        width: 100;
-        height: 150;
-        overflow: hidden;
-        -webkit-box-reflect: right;
-    }
-
-    [b] {
-        width: 99;
-        height: 99;
-        background: #4F77FF;
-        transform: rotate(45deg)translate(-98.3px, -50.2px)scale(1.0002);
-        box-shadow: 25px 25px 0 10px, 60px 60px 0 10px#4F77FF
-    }
-</style>
+<p a>
+    <p a r>
+    <p b>
+    <p b r>
+    <p c>
+    <p c r>
+    <style>
+        body{
+          background:#191919;
+          color:#4F77FF
+        }
+        p{
+            position:fixed;
+            border:solid 50px transparent;
+          left:100
+        }
+    
+        [a]{
+            border-top:solid 50px;
+            top:59
+        }
+    
+        [c]{
+            border-top:solid 50px#191919;
+            top:109
+        }
+        [b]{
+            border-top:solid 50px;
+            top:159;
+            box-shadow:0 -50px
+        }   
+        [r]{
+            left:200
+        }
