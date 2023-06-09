@@ -1,0 +1,85 @@
+<p g>
+<p a>
+<p b>
+<p c>
+<p d>
+<p e>
+<p f>
+    <style>
+        * {
+            background: var(--g, #62306D);
+            color: F7EC7D
+        }
+
+        p,
+        :before {
+            --g: #F7EC7D;
+            position: absolute;
+            border-radius: var(--b, 5px)
+        }
+
+        [a] {
+            width: 10;
+            height: 50;
+            top: 40;
+            left: 155;
+            box-shadow: 40px 0, 80px 0
+        }
+
+        [b] {
+            width: 90;
+            height: 20;
+            --b: 20px;
+            top: 84q;
+            left: 155
+        }
+
+        [c] {
+            width: 30;
+            height: 44;
+            --g: #62306D;
+            top: 40;
+            left: 165;
+            box-shadow: 40px 0#62306D
+        }
+
+        [d] {
+            width: 60;
+            height: 10;
+            top: 104;
+            left: 170
+        }
+
+        [e] {
+            width: 110;
+            height: 10;
+            top: 189;
+            left: 145
+        }
+
+        [f] {
+            width: 140;
+            height: 26q;
+            --b: 20px 20px 10px 10px;
+            top: 204;
+            left: 130
+        }
+
+        [g] {
+            width: 140;
+            height: 65;
+            top: 119;
+            left: 130
+        }
+
+        [g]:before {
+            content: '';
+            width: 150;
+            height: 150;
+            background: #62306D;
+            --b: 50%;
+            top: -65;
+            left: -100;
+            -webkit-box-reflect: right 40px;
+        }
+    </style>
