@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#138. Lotus</title>
+    <style>
+        body {
+            background: #926927;
+            margin: 0;
+        }
+
+        div {
+            position: absolute;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+        }
+
+        .wrap {
+            top: 20px;
+            left: 100px;
+            overflow: hidden;
+        }
+
+        .wrap::after {
+            position: absolute;
+            content: '';
+            display: block;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: #6D480A;
+            top: 100px;
+            left: -100px;
+        }
+
+        .wrap::before {
+            position: absolute;
+            content: '';
+            display: block;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: #6D480A;
+            top: 100px;
+            left: 100px;
+        }
+
+        .center {
+            left: 31q;
+            top: 50px;
+            overflow: hidden;
+        }
+
+        .center:after {
+            position: absolute;
+            content: '';
+            display: block;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: #FFFFFF;
+            top: 0;
+            left: 142px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class='wrap'></div>
+    <div class='center'></div>
+</body>
+
+</html>
