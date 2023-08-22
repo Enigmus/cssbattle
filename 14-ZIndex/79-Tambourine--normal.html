@@ -7,34 +7,45 @@
     <style>
         * {
             background: #6592CF;
-            color: #243D83
+            color: #243D83;
+            position: fixed;
         }
 
         p {
-            position: absolute;
             border: 10px solid;
             border-radius: 50%;
         }
 
-        .a {
+        div.a {
             width: 150px;
             height: 150px;
             margin: 66px 108px;
+            border: 10px solid;
+            border-radius: 50%;
+            overflow: hidden;
         }
 
         .b {
             width: 100px;
             height: 100px;
-            margin: 192px 132px;
+            margin: 116px 14px;
             border-radius: 50%;
-            border: 10px solid #ffffff00;
-            border-top: 10px solid #243D83;
+            border: 10px solid;
+            position: relative;
+        }
+
+        .b1 {
+            width: 100px;
+            height: 100px;
+            margin: 202px 142px;
+            border-radius: 50%;
+            border: 0;
         }
 
         .c {
             width: 30px;
             height: 30px;
-            margin: 86px 98px;
+            margin: 88px 98px;
         }
 
         .d {
@@ -65,8 +76,11 @@
 </head>
 
 <body>
-    <p class='a'></p>
-    <p class='b'></p>
+
+    <div class='a'>
+        <p class='b'></p>
+    </div>
+    <p class='b1'></p>
     <p class='c'></p>
     <p class='c d'></p>
     <p class='c e'></p>
