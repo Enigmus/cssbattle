@@ -1,10 +1,9 @@
-<p g>
-<p a>
-<p b>
-<p c>
-<p d>
-<p e>
-<p f>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#152. Rook</title>
     <style>
         * {
             background: var(--g, #62306D);
@@ -18,7 +17,7 @@
             border-radius: var(--b, 5px)
         }
 
-        [a] {
+        .a {
             width: 10px;
             height: 50px;
             top: 40px;
@@ -26,7 +25,7 @@
             box-shadow: 40px 0, 80px 0
         }
 
-        [b] {
+        .b {
             width: 90px;
             height: 20px;
             --b: 20px;
@@ -34,7 +33,7 @@
             left: 155px
         }
 
-        [c] {
+        .c {
             width: 30px;
             height: 44px;
             --g: #62306D;
@@ -43,21 +42,21 @@
             box-shadow: 40px 0#62306D
         }
 
-        [d] {
+        .d {
             width: 60px;
             height: 10px;
             top: 104px;
             left: 170px
         }
 
-        [e] {
+        .e {
             width: 110px;
             height: 10px;
             top: 189px;
             left: 145px
         }
 
-        [f] {
+        .f {
             width: 140px;
             height: 26q;
             --b: 20px 20px 10px 10px;
@@ -65,14 +64,14 @@
             left: 130px
         }
 
-        [g] {
+        .g {
             width: 140px;
             height: 65px;
             top: 119px;
             left: 130px
         }
 
-        [g]:before {
+        .g:before {
             content: '';
             width: 150px;
             height: 150px;
@@ -83,3 +82,16 @@
             -webkit-box-reflect: right 40px;
         }
     </style>
+</head>
+
+<body>
+    <p class='g'></p>
+    <p class='a'></p>
+    <p class='b'></p>
+    <p class='c'></p>
+    <p class='d'></p>
+    <p class='e'></p>
+    <p class='f'></p>
+</body>
+
+</html>
