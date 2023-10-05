@@ -1,7 +1,9 @@
-<p c>
-<p a>
-<p b>
-<p d>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#151. Pawn</title>
     <style>
         body {
             background: #F5D6B4;
@@ -13,45 +15,55 @@
             position: absolute;
         }
 
-        [a] {
-            width: 50;
-            height: 50;
+        .a {
+            width: 50px;
+            height: 50px;
             border-radius: 50%;
-            top: 40;
-            left: 175
+            top: 40px;
+            left: 175px
         }
 
-        [b] {
-            width: 80;
-            height: 20;
+        .b {
+            width: 80px;
+            height: 20px;
             border-radius: 10px 10px 20px 20px;
-            top: 94;
-            left: 160
+            top: 94px;
+            left: 160px
         }
 
-        [c] {
-            width: 140;
-            height: 65;
-            top: 119;
-            left: 130
+        .c {
+            width: 140px;
+            height: 65px;
+            top: 119px;
+            left: 130px
         }
 
-        [c]:before {
+        .c:before {
             content: '';
-            width: 150;
-            height: 150;
+            width: 150px;
+            height: 150px;
             background: #f5D6B4;
             border-radius: 50%;
-            top: -65;
-            left: -100;
+            top: -65px;
+            left: -100px;
             -webkit-box-reflect: right 40px
         }
 
-        [d] {
-            width: 140;
-            height: 40;
+        .d {
+            width: 140px;
+            height: 40px;
             border-radius: 20px 20px 10px 10px;
             top: 200q;
-            left: 130
+            left: 130px
         }
     </style>
+</head>
+
+<body>
+    <p class='c'></p>
+    <p class='a'></p>
+    <p class='b'></p>
+    <p class='d'></p>
+</body>
+
+</html>
