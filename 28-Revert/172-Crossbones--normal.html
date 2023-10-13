@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#172. Crossbones</title>
+    <style>
+        body {
+            background: #EFEB99
+        }
+
+        p {
+            position: fixed;
+            background: #8647E6;
+            color: #8647E6;
+        }
+
+        .a {
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            top: 42px;
+            left: 128px;
+            -webkit-box-reflect: below 125px;
+            box-shadow: -20px 21px, 114px 0, 135px 21px
+        }
+
+        .b {
+            width: 30px;
+            height: 190px;
+            transform: rotate(45deg);
+            top: 40px;
+            left: 184px
+        }
+
+        .c {
+            transform: rotate(-45deg);
+            left: 185px
+        }
+    </style>
+</head>
+
+<body>
+    <p class='a'></p>
+    <p class='b'></p>
+    <p class='b c'></p>
+</body>
+
+</html>
