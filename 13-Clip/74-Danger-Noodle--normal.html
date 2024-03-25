@@ -5,148 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>#74. Danger Noodle</title>
     <style>
-      body {
+      body,
+      p {
         background: #191919;
+      }
+      .b,
+      .d {
+        top: 24px;
+      }
+      .c,
+      .e {
+        top: 44px;
       }
       p {
-        position: fixed;
+        width: 70px;
+        height: 200px;
+        position: absolute;
+        box-shadow: inset 0 0 0 5px #e08027, inset 0 0 0 15px #191919,
+          inset 0 0 0 20px #e08027;
+        border-radius: 35px;
       }
       .a {
-        background: #191919;
-        top: 60px;
-        left: 65px;
-        width: 10px;
-        height: 160px;
-        border: solid #e08027;
-        border-width: 0 5px;
+        left: -35px;
+        top: -56px;
+        clip: rect(110px, auto, auto, auto);
       }
       .b {
-        left: 115px;
+        left: 15px;
+        clip: rect(auto, auto, 80px, auto);
       }
       .c {
-        left: 165px;
+        left: 65px;
+        clip: rect(35px, auto, auto, auto);
       }
       .d {
-        left: 15px;
-        height: 60px;
-      }
-      .z {
-        top: 150px;
-        left: 215px;
-        height: 60px;
-      }
-      .r {
-        background: #191919;
-        top: 124px;
-        left: 245px;
-        width: 20px;
-        height: 10px;
-        border: solid #e08027;
-        border-width: 5px 0;
+        left: 115px;
+        clip: rect(auto, auto, 165px, auto);
       }
       .e {
-        background: radial-gradient(
-          at 50% 0,
-          #191919 30%,
-          #e08027 0,
-          41%,
-          #191919 0,
-          61%,
-          #e08027 0,
-          70%,
-          #191919 0
-        );
-        top: 24px;
-        left: 15px;
-        width: 70px;
-        height: 35px;
-        transform: scaleY(-1);
-        -webkit-box-reflect: right 30px;
+        left: 165px;
+        clip: rect(120px, auto, auto, auto);
+      }
+      .f {
+        width: 99px;
+        border-top-right-radius: 0;
+        left: 215px;
+        top: 124px;
+        clip: rect(auto, 55px, 80px, auto);
       }
       .g {
-        background: radial-gradient(
-          at 50% 0,
-          #191919 30%,
-          #e08027 0,
-          41%,
-          #191919 0,
-          61%,
-          #e08027 0,
-          70%,
-          #191919 0
-        );
-        top: 209px;
-        left: 65px;
-        width: 70px;
-        height: 35px;
-        -webkit-box-reflect: right 30px;
-      }
-      .i {
-        background: radial-gradient(
-          at 100% 100%,
-          #191919 30%,
-          #e08027 0,
-          41%,
-          #191919 0,
-          61%,
-          #e08027 0,
-          70%,
-          #191919 0
-        );
-        top: 124px;
-        left: 215px;
-        width: 35px;
-        height: 35px;
-      }
-      .k {
-        background: radial-gradient(
-          at 100% 100%,
-          #191919 30%,
-          #e08027 0,
-          41%,
-          #191919 0,
-          61%,
-          #e08027 0,
-          70%,
-          #191919 0
-        );
-        transform: scale(-1);
-        top: 110px;
-        left: 0px;
-        width: 35px;
-        height: 35px;
-      }
-      .l {
+        box-shadow: none;
         background: #e08027;
-        border-radius: 10px 15px 15px 10px;
-        top: 118px;
-        left: 265px;
         width: 50px;
         height: 30px;
+        top: 119px;
+        left: 265px;
+        border-radius: 14px 20px 20px 14px;
       }
-      .n {
-        background: #191919;
-        border-radius: 50%;
-        top: 121px;
-        left: 295px;
+      .h {
         width: 10px;
         height: 10px;
+        top: 121px;
+        left: 295px;
         box-shadow: 0 16px #191919;
       }
     </style>
   </head>
   <body>
     <p class="a"></p>
-    <p class="a b"></p>
-    <p class="a c"></p>
-    <p class="a d"></p>
-    <p class="a z"></p>
-    <p class="r"></p>
+    <p class="b"></p>
+    <p class="c"></p>
+    <p class="d"></p>
     <p class="e"></p>
+    <p class="f"></p>
     <p class="g"></p>
-    <p class="i"></p>
-    <p class="k"></p>
-    <p class="l"></p>
-    <p class="n"></p>
+    <p class="h"></p>
   </body>
 </html>
